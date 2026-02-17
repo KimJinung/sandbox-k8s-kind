@@ -4,3 +4,19 @@ This project provisions a High-Availability (HA) Kubernetes cluster for local de
 🚀 Quick Start
 
 Spin up the entire environment with a single command—no complex manual configuration required.
+
+## Prerequisites
+```bash
+./install-kind.sh
+./install-kubectl.sh
+```
+
+## Create K8s cluster
+```bash
+./create-cluster.sh
+```
+
+## Clean up
+```bash
+./delete-cluster.sh
+```
