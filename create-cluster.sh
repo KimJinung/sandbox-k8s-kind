@@ -1,3 +1,3 @@
 #!/bin/bash
 
-kind create cluster --config ~/kind-ha-cluster.yaml
+kind create cluster --config ${PWD}/kind-ha-cluster.yaml
