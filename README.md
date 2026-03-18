@@ -20,3 +20,8 @@ Spin up the entire environment with a single command—no complex manual configu
 ```bash
 ./delete-cluster.sh
 ```
+
+## Modify Cluster configuration
+```bash
+vi kind-ha-cluster.yaml
+```
